@@ -26,6 +26,7 @@ input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     radio.sendNumber(1)
 })
+music.setVolume(123)
 basic.forever(function () {
 	
 })
